@@ -2,12 +2,14 @@
 
 Project 5 for FEND Udacity / Implement tests using Jasmine on an existing application.
 
+* [Link to finsihed Project]() dead link needs updating once project is finished
 * [Project Overview](https://github.com/FoxyStoat/feed-reader-testing#project-overview)
-* [Why this Project?]
-* [What will I learn?]
-* [How will this help my career?]
-* [Project Specifications]
-* [Licening]
+* [Why this Project?](https://github.com/FoxyStoat/feed-reader-testing#why-this-project)
+* [What will I learn?](https://github.com/FoxyStoat/feed-reader-testing#what-will-i-learn)
+* [How will this help my career?](https://github.com/FoxyStoat/feed-reader-testing#how-will-this-help-my-career)
+* [How will I complete this Project](https://github.com/FoxyStoat/feed-reader-testing#how-will-i-complete-this-project)
+* [Project Specifications](https://github.com/FoxyStoat/feed-reader-testing#project-specifications)
+* [Licensing](https://github.com/FoxyStoat/feed-reader-testing#licening)
 
 ## Project Overview
 
@@ -29,47 +31,47 @@ Good tests give you the ability to quickly analyze whether new code breaks an ex
 
 ### How will I complete this project?
 
-1.) Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/rubrics/18/view)
-2.) Take the JavaScript [Testing course](https://eu.udacity.com/course/javascript-testing--ud549)
-3.) Download the [required project assets](https://github.com/udacity/frontend-nanodegree-feedreader).
-4.) Review the functionality of the application within your browser.
-5.) Explore the application's HTML (**./index.html**), CSS (**./css/style.css**) and JavaScript (**./js/app.js**) to gain an understanding of how it works.
-6.) Explore the Jasmine spec file in **./jasmine/spec/feedreader.js** and review the [Jasmine documentation](https://jasmine.github.io/)
-7.) Edit the ```allFeeds``` variable in ./js/app.js to make the provided test fail and see how Jasmine visualizes this failure in your application.
-8.) Return the ```allFeeds``` variable to a passing state.
-9.) Write a test that loops through each feed in the ```allFeeds``` object and ensures it has a URL defined and that the URL is not empty.
-10.) Write a test that loops through each feed in the ```allFeeds``` object and ensures it has a name defined and that the name is not empty.
-11.) Write a new test suite named ```"The menu"```.
-12.) Write a test that ensures the menu element is hidden by default. You'll have to analyze the HTML and the CSS to determine how we're performing the hiding/showing of the menu element.
-13.) Write a test that ensures the menu changes visibility when the menu icon is clicked. This test should have two expectations: does the menu display when clicked and does it hide when clicked again.
-14.) Write a test suite named ```"Initial Entries"```.
-15.) Write a test that ensures when the ```loadFeed``` function is called and completes its work, there is at least a single ```.entry``` element within the ```.feed``` container.
-16.) Write a test suite named ```"New Feed Selection"```.
-17.) Write a test that ensures when a new feed is loaded by the ```loadFeed``` function that the content actually changes.
-18.) No test should be dependent on the results of another.
-19.) Callbacks should be used to ensure that feeds are loaded before they are tested.
-20.) Implement error handling for undefined variables and out-of-bound array access.
-21.) When complete - all of your tests should pass.
-22.) Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage), provide documentation for what these future features are and what the tests are checking for.
+1. Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/rubrics/18/view)
+2. Take the JavaScript [Testing course](https://eu.udacity.com/course/javascript-testing--ud549)
+3. Download the [required project assets](https://github.com/udacity/frontend-nanodegree-feedreader).
+4. Review the functionality of the application within your browser.
+5. Explore the application's HTML (**./index.html**), CSS (**./css/style.css**) and JavaScript (**./js/app.js**) to gain an understanding of how it works.
+6. Explore the Jasmine spec file in **./jasmine/spec/feedreader.js** and review the [Jasmine documentation](https://jasmine.github.io/)
+7. Edit the ```allFeeds``` variable in ./js/app.js to make the provided test fail and see how Jasmine visualizes this failure in your application.
+8. Return the ```allFeeds``` variable to a passing state.
+9. Write a test that loops through each feed in the ```allFeeds``` object and ensures it has a URL defined and that the URL is not empty.
+10. Write a test that loops through each feed in the ```allFeeds``` object and ensures it has a name defined and that the name is not empty.
+11. Write a new test suite named ```"The menu"```.
+12. Write a test that ensures the menu element is hidden by default. You'll have to analyze the HTML and the CSS to determine how we're performing the hiding/showing of the menu element.
+13. Write a test that ensures the menu changes visibility when the menu icon is clicked. This test should have two expectations: does the menu display when clicked and does it hide when clicked again.
+14. Write a test suite named ```"Initial Entries"```.
+15. Write a test that ensures when the ```loadFeed``` function is called and completes its work, there is at least a single ```.entry``` element within the ```.feed``` container.
+16. Write a test suite named ```"New Feed Selection"```.
+17. Write a test that ensures when a new feed is loaded by the ```loadFeed``` function that the content actually changes.
+18. No test should be dependent on the results of another.
+19. Callbacks should be used to ensure that feeds are loaded before they are tested.
+20. Implement error handling for undefined variables and out-of-bound array access.
+21. When complete - all of your tests should pass.
+22. Write a ```README``` file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage), provide documentation for what these future features are and what the tests are checking for.
 
 ### Project Specifications
 
 ##### Test Coverage:
 
-	* All Reqired Tests Provided - The required tests for the project (RSS Feed testing, RSS Feed properties, menu default state, and menu hiding/showing) are all provided and are comprehensive enough to adequately test the functionality.
+* All Reqired Tests Provided - The required tests for the project (RSS Feed testing, RSS Feed properties, menu default state, and menu hiding/showing) are all provided and are comprehensive enough to adequately test the functionality.
 
-	* Tests should be independent of one another.
+* Tests should be independent of one another.
 
-	* Passing - All required tests for the project pass.
+* Passing - All required tests for the project pass.
 
 ##### Documentation:
 
-	* README - A ```README``` file is included detailing all steps required to successfully run the application.
+* README - A ```README``` file is included detailing all steps required to successfully run the application.
 
-	* Comments are present and effectively explain longer code procedures.
+* Comments are present and effectively explain longer code procedures.
 
-	* Code is formatted with consistent, logical, and easy-to-read formatting as described in the Udacity [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
+* Code is formatted with consistent, logical, and easy-to-read formatting as described in the Udacity [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 
-### Licening
+### Licensing
 
 This is a Udacity Project, here is the link to the Udacity [repo](https://github.com/udacity/frontend-nanodegree-feedreader)

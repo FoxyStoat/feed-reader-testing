@@ -2,9 +2,9 @@
 
 Project 5 for FEND Udacity / Implement tests using Jasmine on an existing application.
 
-* [Link to finsihed Project]() dead link needs updating once project is finished
+* [Link to finsihed Project](https://foxystoat.github.io/feed-reader-testing/)
 * [Project Overview](https://github.com/FoxyStoat/feed-reader-testing#project-overview)
-* [How to run this application]()
+* [How to run this application](https://github.com/FoxyStoat/feed-reader-testing#how-to-run-this-application)
 * [Why this Project?](https://github.com/FoxyStoat/feed-reader-testing#why-this-project)
 * [What will I learn?](https://github.com/FoxyStoat/feed-reader-testing#what-will-i-learn)
 * [How will this help my career?](https://github.com/FoxyStoat/feed-reader-testing#how-will-this-help-my-career)
@@ -18,10 +18,10 @@ In this project you are given a web-based application that reads RSS feeds. The 
 
 This is a Udacity Project, here is the link to the Udacity [repo](https://github.com/udacity/frontend-nanodegree-feedreader)
 
-### How to run this Application
+### How to run this Application?
 
 Clone or download this repo, unzip and open index.html file in a browser.
-Alternately, click [here]() to view the finished project.
+Alternately, click [here](https://foxystoat.github.io/feed-reader-testing/) to view the finished project.
 If you would like to view the test suits, they are written in the feedreader.js file within jasmine/spec folder.
 
 ### Why this Project?

@@ -10,7 +10,7 @@
  */
 $(function() {
 	/*
-	Suite 1 - a test suite just contains a related set of tests.
+	Test Suite 1: - a test suite just contains a related set of tests.
 	This suite is all about the RSS feeds definitions, the allFeeds
 	variable in our application.
 	*/
@@ -50,21 +50,24 @@ $(function() {
 	}); //End of Test Suite 1 RSS Feeds
 
 	/*
-	Test suite 2 This suite is all about "The menu"
+	Test Suite 2: This suite is all about "The menu"
 	*/
 	describe('The menu', function() {
-		/* TODO: Write a test that ensures the menu element is
-		 * hidden by default. You'll have to analyze the HTML and
-		 * the CSS to determine how we're performing the
-		 * hiding/showing of the menu element.
-		 */
+		/*
+		Test 1 of suite 2: Will pass if the menu element is hidden by default.
+		"menu-hidden" is a class on the body, we want this class to be present
+		as a dafault to hide the menu.
+		*/
+		it('is hidden by default', function() {
+			expect($('body').hasClass('menu-hidden')).toBe(true);
+		});
 
 		/* TODO: Write a test that ensures the menu changes
 		  * visibility when the menu icon is clicked. This test
 		  * should have two expectations: does the menu display when
 		  * clicked and does it hide when clicked again.
 		  */
-	});
+	}); //End of Test Suite 2 The menu
 
 	/* TODO: Write a new test suite named "Initial Entries" */
 

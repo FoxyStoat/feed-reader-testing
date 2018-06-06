@@ -10,7 +10,7 @@ Project 5 for FEND Udacity / Implement tests using Jasmine on an existing applic
 * [How will this help my career?](https://github.com/FoxyStoat/feed-reader-testing#how-will-this-help-my-career)
 * [How will I complete this Project](https://github.com/FoxyStoat/feed-reader-testing#how-will-i-complete-this-project)
 * [Project Specifications](https://github.com/FoxyStoat/feed-reader-testing#project-specifications)
-* [Bugs]()
+* [Bugs](https://github.com/FoxyStoat/feed-reader-testing#bugs)
 * [Licensing](https://github.com/FoxyStoat/feed-reader-testing#licensing)
 
 ## Project Overview

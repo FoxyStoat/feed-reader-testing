@@ -4,18 +4,25 @@ Project 5 for FEND Udacity / Implement tests using Jasmine on an existing applic
 
 * [Link to finsihed Project]() dead link needs updating once project is finished
 * [Project Overview](https://github.com/FoxyStoat/feed-reader-testing#project-overview)
+* [How to run this application]()
 * [Why this Project?](https://github.com/FoxyStoat/feed-reader-testing#why-this-project)
 * [What will I learn?](https://github.com/FoxyStoat/feed-reader-testing#what-will-i-learn)
 * [How will this help my career?](https://github.com/FoxyStoat/feed-reader-testing#how-will-this-help-my-career)
 * [How will I complete this Project](https://github.com/FoxyStoat/feed-reader-testing#how-will-i-complete-this-project)
 * [Project Specifications](https://github.com/FoxyStoat/feed-reader-testing#project-specifications)
-* [Licensing](https://github.com/FoxyStoat/feed-reader-testing#licening)
+* [Licensing](https://github.com/FoxyStoat/feed-reader-testing#licensing)
 
 ## Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](https://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
 
 This is a Udacity Project, here is the link to the Udacity [repo](https://github.com/udacity/frontend-nanodegree-feedreader)
+
+### How to run this Application
+
+Clone or download this repo, unzip and open index.html file in a browser.
+Alternately, click [here]() to view the finished project.
+If you would like to view the test suits, they are written in the feedreader.js file within jasmine/spec folder.
 
 ### Why this Project?
 Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development". This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
@@ -26,14 +33,14 @@ Whether you work in an organization that uses test-driven development or in an o
 You will learn how to use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
 
 ### How will this help my career?
-Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
+Writing effective tests requires analyzing multiple aspects of an application including the **HTML**, **CSS** and **JavaScript** - an extremely important skill when changing teams or joining a new company.
 Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
 
 ### How will I complete this project?
 
 1. Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/rubrics/18/view)
 2. Take the JavaScript [Testing course](https://eu.udacity.com/course/javascript-testing--ud549)
-3. Download the [required project assets](https://github.com/udacity/frontend-nanodegree-feedreader).
+3. Download the [required project assets](https://github.com/udacity/frontend-nanodegree-feedreader)
 4. Review the functionality of the application within your browser.
 5. Explore the application's HTML (**./index.html**), CSS (**./css/style.css**) and JavaScript (**./js/app.js**) to gain an understanding of how it works.
 6. Explore the Jasmine spec file in **./jasmine/spec/feedreader.js** and review the [Jasmine documentation](https://jasmine.github.io/)
@@ -58,7 +65,7 @@ Good tests give you the ability to quickly analyze whether new code breaks an ex
 
 ##### Test Coverage:
 
-* All Reqired Tests Provided - The required tests for the project (RSS Feed testing, RSS Feed properties, menu default state, and menu hiding/showing) are all provided and are comprehensive enough to adequately test the functionality.
+* All Reqired Tests Provided - The required tests for the project (```RSS Feed``` testing, ```RSS Feed``` properties, menu default state, and menu hiding/showing) are all provided and are comprehensive enough to adequately test the functionality.
 
 * Tests should be independent of one another.
 
@@ -74,4 +81,4 @@ Good tests give you the ability to quickly analyze whether new code breaks an ex
 
 ### Licensing
 
-This is a Udacity Project, here is the link to the Udacity [repo](https://github.com/udacity/frontend-nanodegree-feedreader)
+This is a Udacity Project, and is believed to use a [MIT License](https://opensource.org/licenses/MIT) here is the link to the Udacity [repo](https://github.com/udacity/frontend-nanodegree-feedreader)

@@ -36,11 +36,18 @@ $(function() {
 			});
 		});
 
-		/* TODO: Write a test that loops through each feed
-		 * in the allFeeds object and ensures it has a name defined
-		 * and that the name is not empty.
-		 */
-	});
+		/*
+		Test 3 of suite 1: Will pass if the name property in each
+		feed in the allFeeds object is defined and that the name
+		property is not empty.
+		*/
+		it('name property is defined and not empty', function() {
+			allFeeds.forEach(function(feed) {
+				expect(feed.name).toBeDefined();
+				expect(feed.name.length).not.toBe(0);
+			});
+		});
+	}); //End of Test Suite 1 RSS Feeds
 
 
 	/* TODO: Write a new test suite named "The menu" */

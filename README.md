@@ -10,6 +10,7 @@ Project 5 for FEND Udacity / Implement tests using Jasmine on an existing applic
 * [How will this help my career?](https://github.com/FoxyStoat/feed-reader-testing#how-will-this-help-my-career)
 * [How will I complete this Project](https://github.com/FoxyStoat/feed-reader-testing#how-will-i-complete-this-project)
 * [Project Specifications](https://github.com/FoxyStoat/feed-reader-testing#project-specifications)
+* [Bugs]()
 * [Licensing](https://github.com/FoxyStoat/feed-reader-testing#licensing)
 
 ## Project Overview
@@ -20,7 +21,7 @@ This is a Udacity Project, here is the link to the Udacity [repo](https://github
 
 ### How to run this Application?
 
-Clone or download this repo, unzip and open index.html file in a browser.
+Clone or download this repo to your local machine, unzip and open index.html file in a browser.
 Alternately, click [here](https://foxystoat.github.io/feed-reader-testing/) to view the finished project.
 If you would like to view the test suits, they are written in the feedreader.js file within jasmine/spec folder.
 
@@ -78,6 +79,10 @@ Good tests give you the ability to quickly analyze whether new code breaks an ex
 * Comments are present and effectively explain longer code procedures.
 
 * Code is formatted with consistent, logical, and easy-to-read formatting as described in the Udacity [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
+
+### Bugs
+
+I encounted a problem with getting the application to show up on live GitHub pages.  This is easily solved by updating the HTML links from http to https.
 
 ### Licensing
 

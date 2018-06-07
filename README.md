@@ -19,6 +19,10 @@ In this project you are given a web-based application that reads RSS feeds. The 
 
 This is a Udacity Project, here is the link to the Udacity [repo](https://github.com/udacity/frontend-nanodegree-feedreader)
 
+##### Screenshot of Finished Project
+
+![screenshot of finished project](img/unit-tests-screenshot.png "screenshot of finished project") 
+
 ### How to run this Application?
 
 Clone or download this repo to your local machine, unzip and open index.html file in a browser.

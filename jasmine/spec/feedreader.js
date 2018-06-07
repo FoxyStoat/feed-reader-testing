@@ -113,8 +113,7 @@ $(function() {
 		the use of Jasmine's beforeEach and asynchronous done() function.
 		*/
 		// for comparison of each feeds html
-		let feedFirst,
-				feedSecond;
+		let feedFirst, feedSecond;
 
 		beforeEach(function(done) {
 			// load first feed

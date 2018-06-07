@@ -106,9 +106,30 @@ $(function() {
 	Test Suite 4: This suite is all about "New Feed Selection"
 	*/
 	describe('New Feed Selection', function() {
-		/* TODO: Write a test that ensures when a new feed is loaded
-		 * by the loadFeed function that the content actually changes.
-		 * Remember, loadFeed() is asynchronous.
-		 */
+		/*
+		Test 1 of suite 4: Will pass when a new feed is loaded by the
+		loadFeed function and that the content actually changes.
+		NOTE: LoadFeed() is asynchronous so this test will require
+		the use of Jasmine's beforeEach and asynchronous done() function.
+		*/
+		// for comparison of each feeds html
+		let feedFirst,
+				feedSecond;
+
+		beforeEach(function(done) {
+			// load first feed
+			loadFeed(0, function() {
+				feedFirst = $('.feed .entry').html();
+				// load second feed
+				loadFeed(1, done);
+			});
+		});
+
+		it('changes feed content', function(done) {
+			feedSecond = $('.feed .entry').html();
+			// compare the two feeds do not match
+			expect(feedFirst).not.toEqual(feedSecond);
+			done();
+		});
 	}); //End of test suite 4 New Feed Selection
 }()); //End of $() function

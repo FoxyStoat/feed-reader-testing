@@ -102,10 +102,13 @@ $(function() {
 		});
 	}); //End of Test Suite 3 Initial Entries
 
-	/* TODO: Write a new test suite named "New Feed Selection" */
-
+	/*
+	Test Suite 4: This suite is all about "New Feed Selection"
+	*/
+	describe('New Feed Selection', function() {
 		/* TODO: Write a test that ensures when a new feed is loaded
 		 * by the loadFeed function that the content actually changes.
 		 * Remember, loadFeed() is asynchronous.
 		 */
-}());
+	}); //End of test suite 4 New Feed Selection
+}()); //End of $() function

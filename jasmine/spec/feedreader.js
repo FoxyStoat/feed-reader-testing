@@ -83,13 +83,24 @@ $(function() {
 	Test Suite 3: This suite is all about "Initial Entries"
 	*/
 	describe('Initial Entries', function() {
-		/* TODO: Write a test that ensures when the loadFeed
-		 * function is called and completes its work, there is at least
-		 * a single .entry element within the .feed container.
-		 * Remember, loadFeed() is asynchronous so this test will require
-		 * the use of Jasmine's beforeEach and asynchronous done() function.
-		 */
-	});
+		/*
+		Test 1 of suite 3: Will pass when the loadFeed function is called
+		and completes its work, and there is at least a single .entry element
+		within the .feed container.
+		NOTE: LoadFeed() is asynchronous so this test will require
+		the use of Jasmine's beforeEach and asynchronous done() function.
+		*/
+		beforeEach(function(done) {
+			loadFeed(0, done);
+		});
+
+		it('has at least one entry in feed container after loadFeed() is called', function(done) {
+			// .entry is child of .feed
+			const feedContainer = $('.feed .entry');
+			expect(feedContainer.length).not.toBeLessThan(1);
+			done();
+		});
+	}); //End of Test Suite 3 Initial Entries
 
 	/* TODO: Write a new test suite named "New Feed Selection" */
 
